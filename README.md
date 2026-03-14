@@ -25,7 +25,7 @@ Welcome to the TSE Bootcamp. This is a self-paced, hands-on program designed to 
 
 * **Task 2.1:** Run the following "Mystery Installer" as root:
 ```bash
-curl -sSL https://raw.githubusercontent.com/[YOUR_USERNAME]/[REPO_NAME]/main/install.sh | bash
+curl -sSL https://github.com/HarryV97/-Pocketbase_Install_Bad/blob/main/install.sh | bash
 
 ```
 
