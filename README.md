@@ -1,6 +1,6 @@
 # 🚀 Support Engineering (TSE) Technical Bootcamp
 
-Welcome to the TSE Bootcamp. This is a self-paced, hands-on program designed to build the "break-fix" and automation skills required for a high-level Technical Support Engineering role.
+Alright Nerds. Welcome to the TSE Bootcamp. This is a self-paced, hands-on program designed to build the "break-fix" and automation skills required for a high-level Technical Support Engineering role.
 
 **The Rule:** There are no tutorials here. You are given **Objectives** and **Goals**. You must use documentation, man pages, logs, and search engines to find the "How." Google it, ask for help, use AI, use whatever tool you can think of to complete these tasks
 
