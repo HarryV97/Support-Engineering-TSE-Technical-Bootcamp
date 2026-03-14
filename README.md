@@ -57,7 +57,7 @@ curl -sSL https://raw.githubusercontent.com/HarryV97/-Pocketbase_Install_Bad/ref
 
 * **Task 4.1:** Access the PocketBase UI and create your admin account.
 * **Task 4.2:** Create a collection named `users` with fields: `name` (text), `birthday` (date), and `status` (text).
-* **Task 4.3:** Add me (`[YOUR_EMAIL]`) as an admin user. I will then "seed" the database with 2,000 records.
+* **Task 4.3:** Add me (`ask for my email when ready`) as an admin user. I will then "seed" the database with 2,000 records.
 
 ---
 
