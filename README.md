@@ -4,6 +4,8 @@ Alright Nerds. Welcome to the TSE Bootcamp. This is a self-paced, hands-on progr
 
 **The Rule:** There are no tutorials here. You are given **Objectives** and **Goals**. You must use documentation, man pages, logs, and search engines to find the "How." Google it, ask for help, use AI, use whatever tool you can think of to complete these tasks
 
+**After completion of each module send me a screenshot for proof of completion, or move on to the next ur skills we are building not mine.**
+
 ---
 
 ## 🛠 Module 1: Infrastructure & The Foundation
