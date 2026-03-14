@@ -10,7 +10,7 @@ Alright Nerds. Welcome to the TSE Bootcamp. This is a self-paced, hands-on progr
 
 **Objective:** Provision a production-ready Linux environment and establish secure access.
 
-* **Task 1.1:** Deploy a server running **Debian 12** or **Ubuntu 24.04 LTS**. (Proxmox, AWS, or GCP).
+* **Task 1.1:** Deploy a server running **Debian 12** or **Ubuntu 24.04 LTS**. (Proxmox, AWS, or GCP). **When making a server on AWS/GCP make sure to remove any CC or billing info after. They should give some free credits but **DELETE EVERYTHING AFTER**. These cloud providers are notorious for random bills even after you believe you deleted everything.
 * **Task 1.2:** Create a restricted user named `appuser` with `sudo` privileges.
 * **Task 1.3:** Generate an **ED25519 SSH keypair** locally. Import it to the server.
 * **Task 1.4:** Edit `/etc/ssh/sshd_config` to **disable password-based login** and **disable root SSH login**.
