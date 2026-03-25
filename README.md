@@ -62,7 +62,7 @@ curl -sSL https://raw.githubusercontent.com/HarryV97/-Pocketbase_Install_Bad/ref
 
 * **Task 4.2: Execute the Seeder** Run the following command to download and execute the seeding script:
   ```bash
-  curl -sSL https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh| bash
+  curl -sSL https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh | bash
 
 ---
 
