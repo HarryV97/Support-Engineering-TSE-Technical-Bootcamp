@@ -60,9 +60,14 @@ curl -sSL https://raw.githubusercontent.com/HarryV97/-Pocketbase_Install_Bad/ref
     * `birthday` (Type: Date/Time)
     * `status` (Type: Plain text)
 
-* **Task 4.2: Execute the Seeder** Run the following command to download and execute the seeding script:
-  ```bash
-  curl -sSL https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh | bash
+* **Task 4.2: Script Acquisition** Download the seeding script to your server. You must determine the best tool (`curl`, `wget`, etc.) to pull the raw file from the following URL:
+  `https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh`
+
+* **Task 4.3: Permissions & Execution** You will find that the script cannot be run immediately after downloading. You must modify the file permissions to make it executable. Once ready, execute the script.
+
+* **Task 4.4: Authentication & Inputs** The script will prompt you for the Server IP, Port, and an **Admin Auth Token**. You must determine the best method to generate or retrieve a valid token to authorize these API requests.
+
+**✅ Goal:** Confirm the `users` collection contains exactly 2,000 records with valid data populated in the `name`, `birthday`, and `status` fields.
 
 ---
 
