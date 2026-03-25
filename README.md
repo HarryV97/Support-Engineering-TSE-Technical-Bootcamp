@@ -51,13 +51,18 @@ curl -sSL https://raw.githubusercontent.com/HarryV97/-Pocketbase_Install_Bad/ref
 
 ---
 
-## 👥 Module 4: The Customer Hand-off
+## 👥 Module 4: Data Seeding & Automation
 
-**Objective:** Simulating a live customer environment.
+**Objective:** Use external automation to populate your environment with "customer" data.
 
-* **Task 4.1:** Access the PocketBase UI and create your admin account.
-* **Task 4.2:** Create a collection named `users` with fields: `name` (text), `birthday` (date), and `status` (text).
-* **Task 4.3:** Add me (`ask for my email when ready`) as an admin user. I will then "seed" the database with 2,000 records.
+* **Task 4.1: Schema Preparation** The `users` collection is created by default, but you must manually add the following custom fields to it for this lab:
+    * `name` (Type: Plain text)
+    * `birthday` (Type: Date/Time)
+    * `status` (Type: Plain text)
+
+* **Task 4.2: Execute the Seeder** Run the following command to download and execute the seeding script:
+  ```bash
+  curl -sSL [https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh](https://raw.githubusercontent.com/HarryV97/PocketBase_Seed_Users_Collection/refs/heads/main/seed_data.sh) | bash
 
 ---
 
